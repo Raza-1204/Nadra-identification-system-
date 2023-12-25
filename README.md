@@ -56,3 +56,30 @@ int func(){
 	{
 		cout << "\nGender of "  << name << " is:   Male" << endl;
 	}
+switch (CNICnum[0]) 
+		{
+			case '1':
+				cout << "Province of "  << name << " is:\tKhyber Pakhtunkhwa\n";
+					switch (CNICnum[1])
+					{
+						case '1':
+							cout << "Division of "  << name << " is:\tBannu\n";
+							                    switch (CNICnum[2])
+				                        	{
+					                        	case '1':
+							                        cout << "District of "  << name << " is:\tBannu\n";
+							                        switch (CNICnum[3])
+					                                {
+						                                case '0':
+						                                	cout << "Tehsil of "  << name << " is:\tBannu\n";
+						                                	switch (CNICnum[4])
+					                                        {
+					                                        	case '1':
+						                                        	cout << "Union Council of "  << name << " is:\tBannu\n";
+							                                    break;
+							                                    case '2':
+						                                        	cout << "Union Council of "  << name << " is:\tDomail\n";
+							                                    break;
+							                                default:
+				                                            cout << "The entered CNIC has an invalid union council number\n";
+		                                               	}
